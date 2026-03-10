@@ -8,3 +8,11 @@ void input () {
     while (true) {
         cout << "Masukkan jumlah data pada array: ";
         cin >> n;
+
+         if (n > 0 <= 20) {
+            break; 
+        } 
+        else {
+            cout << "\nArray Tidak Boleh Lebih dari 20\n";
+        }
+    }
